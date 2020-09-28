@@ -25,7 +25,24 @@ def anagrams(words: list = None) -> bool:
         # TODO: Demander les mots ici
         pass
 
-    return False
+        mot1 = 'ALEVIN'
+        mot2 = 'NIVELA'
+
+        mot1 = list(mot1)
+        mot2 = list(mot2)
+        """
+        if len(mot1) == len(mot2):
+            for lettre in mot1:
+                if lettre in mot2:
+                    mot2.revome(lettre)
+            if len(mot2) == 0:
+                print('Anagramme')
+            else:
+                print('raté'
+return False
+        """
+
+        print(sorted(mot1) == sorted(mot2))
 
 
 def contains_doubles(items: list) -> bool:
