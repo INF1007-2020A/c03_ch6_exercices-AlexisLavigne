@@ -40,6 +40,7 @@ def anagrams(words: list = None) -> bool:
             else:
                 print('raté'
 return False
+
         """
 
         print(sorted(mot1) == sorted(mot2))
